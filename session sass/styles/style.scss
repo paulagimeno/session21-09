@@ -1,0 +1,52 @@
+$color-principal: blue;
+
+div {
+  background-color: blue;
+  padding: 20px;
+
+  p {
+    color: yellow;
+    font-size: 20px;
+    span {
+      color: red;
+    }
+  }
+}
+
+.pepito {
+  background-color: green;
+  .juanito {
+    color: pink;
+  }
+}
+
+.contacto {
+  background-color: red;
+  color: white;
+
+  &__form {
+  }
+
+  &__input {
+    line-height: ;
+    
+  }
+
+  &__button {
+    width: 250px;
+    padding: 20px;
+    background-color: grey;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    &--reset {
+      background-color: bisque;
+      color: $color-principal;
+    }
+
+    &--submit {
+      background-color: greenyellow;
+      color: $color-principal;
+    }
+  }
+}

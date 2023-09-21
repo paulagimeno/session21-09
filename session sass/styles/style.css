@@ -1,0 +1,38 @@
+div {
+  background-color: blue;
+  padding: 20px;
+}
+div p {
+  color: yellow;
+  font-size: 20px;
+}
+div p span {
+  color: red;
+}
+
+.pepito {
+  background-color: green;
+}
+.pepito .juanito {
+  color: pink;
+}
+
+.contacto {
+  background-color: red;
+  color: white;
+}
+.contacto__button {
+  width: 250px;
+  padding: 20px;
+  background-color: grey;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.contacto__button--reset {
+  background-color: bisque;
+  color: blue;
+}
+.contacto__button--submit {
+  background-color: greenyellow;
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
